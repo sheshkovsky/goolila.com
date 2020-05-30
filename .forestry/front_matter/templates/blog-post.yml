@@ -25,3 +25,5 @@ fields:
     schema:
       format: markdown
   label: body
+pages:
+- content/hello.md
