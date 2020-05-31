@@ -3,6 +3,24 @@ languageCode = "en-us"
 title = "Goolila"
 theme = "smol"
 uglyurls = true
+pluralizelisttitles = false
 
 [permalinks]
   blog = "/:section/:year/:month/:day/:slug/"
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/blog.html/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "tune"
+    name = "tune"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/tune.html/"
+    weight = -110
