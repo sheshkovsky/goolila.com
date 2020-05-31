@@ -1,3 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://goolila.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Goolila"
+theme = "smol"
+uglyurls = true
+
+[permalinks]
+  blog = "/:section/:year/:month/:day/:slug/"
