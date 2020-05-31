@@ -15,12 +15,12 @@ pluralizelisttitles = false
     identifier = "blog"
     name = "blog"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/blog.html/"
+    url = "/blog.html"
     weight = -110
 
   [[menu.main]]
     identifier = "tune"
     name = "tune"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/tune.html/"
+    url = "/tune.html"
     weight = -110
