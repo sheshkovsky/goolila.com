@@ -1,0 +1,21 @@
+{{ define "main" }}
+	<main>
+		{{ if or .Title .Content }}
+		<div>
+			{{ with .Content }}<div>{{ . }}</div>{{ end }}
+		</div>
+		{{ end }}
+		
+		<div class="row">
+			{{ range .Paginator.Pages }}
+		        <div class="column">
+					<a href="{{ .RelPermalink }}"><img src='{{ .Param "image" }}'></a>                
+		        </div>
+		    {{ end }}
+		</div>
+
+            
+		</ul>
+		{{ partial "pagination.html" . }}
+	</main>
+{{ end }}
