@@ -1,0 +1,11 @@
+{{ define "main" }}
+	<main>
+        {{ range .Params.tags }}
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+		<div>
+			{{ .Content }}
+		</div>
+	</main>
+{{ partial "sidebar.html" . }}
+{{ end }}

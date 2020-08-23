@@ -7,7 +7,7 @@
 		    <div class="row">
 		        <div class="column">
                     {{ range .Params.photos}}
-                        <a href="{{ . }}"><img src='{{ . }}'></a>                
+                        <a href="{{ .original }}"><img class="photo-list" src='{{ .thumb }}'></a>
                     {{ end }}
                 </div>
             </div> 

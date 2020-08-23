@@ -9,12 +9,13 @@
 		<div class="row">
 			{{ range .Paginator.Pages }}
 		        <div class="column">
-					<a href="{{ .RelPermalink }}"><img src='{{ .Param "image" }}'></a>                
+					<a href="{{ .RelPermalink }}">
+						<img class='tunecover-list' src='{{ .Param "image" }}'>
+					</a>
 		        </div>
 		    {{ end }}
 		</div>
 
 		</ul>
-		<!-- {{ partial "pagination.html" . }} -->
 	</main>
 {{ end }}
