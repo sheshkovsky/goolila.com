@@ -1,0 +1,21 @@
+{{ define "main" }}
+	<main>		
+        {{ range .Paginator.Pages }}
+            <div class="row">
+                <h3>{{ .Title }}</h3>
+            </div>
+		    <div class="row">
+		        <div class="column">
+                    {{ range .Params.photos}}
+                        <a href="{{ . }}"><img src='{{ . }}'></a>                
+                    {{ end }}
+                </div>
+            </div> 
+            <div class="row">
+                {{ .Content }}
+            </div>
+            <div><br></div>
+        {{ end }}
+		</ul>
+	</main>
+{{ end }}

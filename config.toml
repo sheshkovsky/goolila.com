@@ -16,11 +16,18 @@ pluralizelisttitles = false
     name = "blog"
     pre = "<i class='fa fa-heart'></i>"
     url = "/blog.html"
-    weight = -110
+    weight = -100
+
+  [[menu.main]]
+    identifier = "photo"
+    name = "photo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/photo.html"
+    weight = -90
 
   [[menu.main]]
     identifier = "tune"
     name = "tune"
     pre = "<i class='fa fa-heart'></i>"
     url = "/tune.html"
-    weight = -110
+    weight = -80
