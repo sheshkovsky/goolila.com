@@ -32,15 +32,15 @@ I highly suggest using a fair amount of sleep time between requests just to not 
 Most of the photos are breath taking and so simple at the same time. These 3 images are the most amazing ones for me so far:
 
 
-[![1](/img/blog/scrape-apollo-lunar-surface-journal/a11pan1105549HR.jpg#tunecover)](/img/blog/scrape-apollo-lunar-surface-journal/a11pan1105549HR.jpg)
+[![1](/img/blog/scrape-apollo-lunar-surface-journal/a11pan1105549HR_thumb.jpg#tunecover)](/img/blog/scrape-apollo-lunar-surface-journal/a11pan1105549HR.jpg)
 
 Neil took this pan from a spot southeast of the LM while Buzz's was removing equipment from the SEQ Bay. *
 
-[![2](/img/blog/scrape-apollo-lunar-surface-journal/AS11-44-6586HR.jpg#tunecover)](/img/blog/scrape-apollo-lunar-surface-journal/AS11-44-6586HR.jpg)
+[![2](/img/blog/scrape-apollo-lunar-surface-journal/AS11-44-6586HR_thumb.jpg#tunecover)](/img/blog/scrape-apollo-lunar-surface-journal/AS11-44-6586HR.jpg)
 
 View of the front of the LM.
 
-[![3](/img/blog/scrape-apollo-lunar-surface-journal/AS11-36-5334.jpg#tunecover)](/img/blog/scrape-apollo-lunar-surface-journal/AS11-36-5334.jpg)
+[![3](/img/blog/scrape-apollo-lunar-surface-journal/AS11-36-5334_thumb.jpg#tunecover)](/img/blog/scrape-apollo-lunar-surface-journal/AS11-36-5334.jpg)
 
 Earth view. 
 
