@@ -1,8 +1,10 @@
 {{ define "main" }}
-	<main>		
+	<main>
         {{ range .Paginator.Pages }}
             <div class="row">
-                <h3>{{ .Title }}</h3>
+                <a href="{{ .RelPermalink }}">
+                    <h3>{{ .Title }}</h3>
+                </a>
             </div>
 		    <div class="row">
 		        <div class="column">
@@ -10,7 +12,7 @@
                         <a href="{{ .original }}"><img class="photo-list" src='{{ .thumb }}'></a>
                     {{ end }}
                 </div>
-            </div> 
+            </div>
             <div class="row">
                 {{ .Content }}
             </div>

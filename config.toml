@@ -7,6 +7,7 @@ pluralizelisttitles = false
 
 [permalinks]
   blog = "/:section/:year/:month/:day/:slug/"
+  photo = "/:section/:year/:month/:day/:slug/"
 
 
 [menu]
